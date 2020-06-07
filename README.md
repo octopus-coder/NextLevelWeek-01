@@ -32,7 +32,7 @@ Project built during Next Level Week 01 BootCamp
 2. Developed for the Android Platform (no expo) [Google API KEYs, Google Fonts, React Native Icons, React Native Mail]
 3. Geolocation from '@react-native-community/geolocation';
 4. English development
-5. Added Selectable UF/City in Mobile using Gov API (IBGE)
+5. Added Selectable UF/City in Mobile using Gov API (IBGE) [Bootcamp Challenge]
 
 
 ## Technologies Used:
