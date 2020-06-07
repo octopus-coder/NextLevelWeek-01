@@ -7,37 +7,20 @@ Residue collection mobile and web app to allow users find their nearest points o
 
 (Web) Home:
 
-<img src="images/web_home.png" width="600">
+<img src="images/web_home.png" width="800">
 
-(Web) Residue Collection Point registration:
+(Web) Residue Collection Point registration
+(Web) establishment picture upload
+(Web) establishment picture upload
 
-<img src="images/web_address_uf_city_items.png" width="300">
-
-(Web) establishment picture upload:
-
-<img src="images/web_upload_image.png" width="300">
-
-(Web) establishment picture upload:
-
-<img src="images/web_image_uploaded.png" width="300">
+<img src="images/web_address_uf_city_items.png" width="300"> <img src="images/web_upload_image.png" width="300"> <img src="images/web_image_uploaded.png" width="300">
 
 ### Mobile App
 
-(Mobile) Home:
-
-<img src="images/mobile_home.jpeg" width="300">
-
-(Mobile) Residue Collection Map:
-
-<img src="images/mobile_map.jpeg" width="300">
-
-(Mobile) Residue establishment details:
-
-<img src="images/mobile_detail.jpeg" width="300">
-
-(Mobile) establishment send mail:
-
-<img src="images/mobile_email.jpeg" width="300">
+<img src="images/mobile_home.jpeg" width="220" alt="(Mobile) Home"> <img src="images/mobile_map.jpeg" width="220" alt="
+(Mobile) Residue Collection Map"> <img src="images/mobile_detail.jpeg" width="220" alt="
+(Mobile) Residue establishment details"> 
+<img src="images/mobile_email.jpeg" width="220" alt="(Mobile) establishment send mail">
 
 ## NextLevelWeek-01
 Project built during Next Level Week 01 BootCamp
