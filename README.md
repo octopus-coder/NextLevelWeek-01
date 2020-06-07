@@ -27,6 +27,13 @@ Residue collection mobile and web app to allow users find their nearest points o
 ## NextLevelWeek-01
 Project built during Next Level Week 01 BootCamp
 
+### Added Value:
+1. Migrated Promises to modern JS async/await in useEffect React Hooks
+2. Developed for the Android Platform (no expo) [Google API KEYs, Google Fonts, React Native Icons, React Native Mail]
+3. Geolocation from '@react-native-community/geolocation';
+4. English development
+
+
 ## Technologies Used:
 
 1. Node.js
