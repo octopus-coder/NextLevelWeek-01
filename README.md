@@ -13,7 +13,9 @@ Residue collection mobile and web app to allow users find their nearest points o
 (Web) establishment picture upload
 (Web) establishment picture upload
 
-<img src="images/web_address_uf_city_items.png" width="300"> <img src="images/web_upload_image.png" width="300"> <img src="images/web_image_uploaded.png" width="300">
+<img src="images/web_address_uf_city_items.png" width="300"> 
+
+<img src="images/web_upload_image.png" width="300"> <img src="images/web_image_uploaded.png" width="300">
 
 ### Mobile App
 
