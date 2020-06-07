@@ -1,0 +1,100 @@
+### POST REQUEST
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+  "name": "Luis Enrique",
+  "email": "luisen.goscas@gmail.com"
+}
+
+### GET REQUEST
+GET http://localhost:3333/users
+
+
+### GET id REQUEST
+GET http://localhost:3333/users/2
+
+
+### GET search REQUEST
+GET http://localhost:3333/users
+
+### GET images REQUEST
+GET http://localhost:3333/uploads/battery.svg
+
+
+### GET items REQUEST
+GET http://localhost:3333/items
+
+
+### POST REQUEST
+POST http://localhost:3333/points
+Content-Type: application/json
+
+{
+    "name": "Market",
+    "email": "123@gmail.com",
+    "whatsapp": "123456789",
+    "latitude": 12.5,
+    "longitude": 13.8,
+    "city": "São Paulo",
+    "uf": "SP",
+    "items": [
+      1,
+      2,
+      5
+    ]
+}
+
+### POST FILE REQUEST
+POST http://localhost:3333/points
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="city"
+
+São Paulo
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="email"
+
+123@gmail.com
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="image"; filename="photomarket.png"
+Content-Type: image/png
+
+< ./photomarket.png
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="latitude"
+
+-29.444194
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="longitude"
+
+50.718843
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="name"
+
+South Market
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="whatsapp"
+
+987654321
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="uf"
+
+SP
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="items"
+
+1,2,5
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### Point ID
+GET http://localhost:3333/points
+
+### Point specific ID
+GET http://localhost:3333/points/11
+
+
+### GET items
+GET http://localhost:3333/points?city=Seattle
+
